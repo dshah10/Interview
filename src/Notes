@@ -1,0 +1,22 @@
+Java:
+1) Array initialization
+   int[] result = new int[2];
+2) HashMap declaration 
+   Map<Integer, Integer> map = new HashMap<>();
+3) throwing an exception
+   throw new IllegalArgumentException();
+4) convert String to char array using str.toCharArray() as its faster
+5) 
+
+Numbers:
+1) How to check for overflow
+   rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)
+   rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)
+   where pop = pop * 10 + (num%10);
+2) How to half numbers:
+   Use palindrome logic
+   When length is odd --> get rid of the middle digit by dividing reversedNum / 10
+3) 
+
+Stack:
+1) Never remove/peek value from stack without checking if its non-empty
